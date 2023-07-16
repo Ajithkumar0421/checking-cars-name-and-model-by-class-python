@@ -1,0 +1,10 @@
+class cars:
+  def __init__(self,manufacturer,year,version,topspeed):
+    self.c1=manufacturer
+    self.c2=year
+    self.c3=version
+    self.c4=topspeed
+  def show(self):
+    print("my car is",self.c1,"and model is",self.c2,"and that type is",self.c3,"with claims speed of",self.c4)
+car=cars("bmw",2023,"x3","250kmph")
+car.show()
